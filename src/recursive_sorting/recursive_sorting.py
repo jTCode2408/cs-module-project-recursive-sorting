@@ -5,12 +5,6 @@ def merge(arrA, arrB):
     elements = len(arrA) + len(arrB)
     merged_arr = [0] * elements
     #pivots for both arr
-    a_pivot = 0
-    b_pivot = 0
-
-
-    
-
 
     return merged_arr
 
@@ -50,7 +44,7 @@ def merge_sort(arr):
 
 # implement an in-place merge sort algorithm
 def merge_in_place(arr, start, mid, end):
-    # Your code here
+# Your code here
 
 
     return arr
